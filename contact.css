@@ -1,0 +1,318 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+
+width: 100%;
+height: 1024px;
+margin: 0;
+padding: 0;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("/images/image 138.jpg"), lightgray -71.516px -0.197px / 110.002% 100.038% no-repeat;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+nav{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  display: flex;
+  
+}
+
+ul{
+  display: flex;
+
+}
+nav ul {
+  list-style: none;
+  }
+  
+
+
+  a {
+  text-decoration: none;
+  color:white;
+  }
+ 
+.Aurora{
+font-family: Vogue;
+font-size: 36px;
+font-weight: 400;
+margin-left: 120px;
+padding: 35px;
+ }
+
+
+ .container {
+    display: flex;
+  align-items: center;
+   margin-left: 330px;
+  }
+
+  .NavBar {
+    list-style: none;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    gap: 20px;
+  }
+
+
+
+.sign{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+font-family: Roboto;
+font-size: 18px;
+font-weight: 600;
+margin-left: 326px;
+}
+
+
+.cont{
+  margin: 0;
+  color: #FFF;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+padding: 347px;
+}
+
+
+
+.contact-form {
+  background-color: #fff;
+  padding:12px 20px;
+  width: 369px;
+  Height:200px;
+  margin: auto ;
+  margin-top: -250px;
+}
+
+
+hr{
+  margin-top: -5px;
+  width: 100%;
+}
+
+label {
+color: #000;
+font-size: 14px;
+font-weight: 600;
+margin-left:5px ;
+
+
+}
+
+input, textarea {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 14px;
+ border: none;
+
+
+}
+
+
+textarea{
+  height: 40px;
+}
+
+button{
+display:flex;
+height: 41px;
+padding: 20px 24px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 2px solid #FFF;
+background: rgba(2, 2, 2, 0.10);
+color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 688px;
+margin-top:51px ;
+}
+
+.Media{
+  margin-left: 120px;
+  margin-top: 100px ;
+}
+
+
+p{
+color:#D2CDCD;
+width: 282px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.nom{
+  margin-left: 1191px;
+  margin-top: -40px;
+}
+
+footer{
+  width:100%;
+  height: 385px;
+  background: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  gap:140px ;
+  }
+
+  .Aurorafooter{
+    margin-left: 100px;
+  margin-top: 56px ;
+  }
+  
+
+  .auror{
+    margin-top: -10px;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  
+  .Aurorafooter>h2{
+    width: 286px;
+    color:  #D2CDCD;
+   font-size: 16px;
+  font-weight: 400;
+  margin-top: 25px;
+  }
+  .fontawesome{
+  margin-top: 60px;
+  }
+  .Aurorafooter>p{
+  color: #BAB6B6;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  }
+
+  .company{
+    display: flex;
+    flex-wrap: wrap;
+    gap:89px ;
+    margin-left: 369px ;
+  }
+
+  .CompanyStories{
+    margin-top: 50px;
+
+}
+
+  .CompanyStories>h3{
+    color: white;
+ 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .CompanyStories>h4{
+  color: #F3F3F3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 200%; 
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+@media  (max-width: 768px) {
+  header {
+    height: 100vh; 
+    background-size: cover;
+  }
+
+  .Aurora{
+    margin-left: 20px;
+  }
+
+  .container{
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+   }
+
+   .sign{
+    margin-left: 0 !important;
+    margin-left: 60px !important;
+   }
+
+   .cont{
+   padding:220px 0;
+   }
+   .contact-form{
+    margin-top: -180px;
+    width: 350px;
+    height: 200px;
+  }
+
+  button{
+    justify-content: center;
+    margin: 0;
+    margin-top: 48px;
+    margin-left: 330px;
+  }
+
+  .Media{
+    margin-top: 0;
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+
+  .nom{
+    float: right;
+    margin-right: -90px;
+    }
+
+  footer{
+    height: 550px;
+  }
+
+  .company{
+    margin-left: 100px;
+    gap: 60px;
+  
+   }
+
+   .CompanyStories {
+    margin-top: -120px;
+  }
+}
+  
+  
+
+  
